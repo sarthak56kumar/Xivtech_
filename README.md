@@ -61,5 +61,6 @@ This project is built with:
 Yes, you can!
 
 To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Demo video link:- https://youtu.be/pAUID0YDzqM
 
 
