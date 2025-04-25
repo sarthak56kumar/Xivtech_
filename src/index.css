@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -96,6 +97,16 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-crypto-bg text-crypto-text;
+  }
+}
+
+@layer components {
+  .price-up {
+    @apply text-crypto-positive;
+  }
+  
+  .price-down {
+    @apply text-crypto-negative;
   }
 }
