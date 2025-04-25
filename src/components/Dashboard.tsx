@@ -6,10 +6,10 @@ import { cryptoWebSocketSimulator } from '@/services/cryptoWebSocketSimulator';
 
 const Dashboard = () => {
   useEffect(() => {
-    // Connect to the simulated WebSocket when the component mounts
+    
     cryptoWebSocketSimulator.connect();
     
-    // Disconnect when the component unmounts
+  
     return () => {
       cryptoWebSocketSimulator.disconnect();
     };
